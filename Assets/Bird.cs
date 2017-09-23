@@ -25,7 +25,7 @@ public class Bird : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0, SpeedFly);
+                GetComponent<Rigidbody2D>().velocity =  new Vector2(0, SpeedFly);
             }
             score.text = ((int)transform.position.x).ToString();
         }
